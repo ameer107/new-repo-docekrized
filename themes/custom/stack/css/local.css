@@ -1,0 +1,195 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  color: #252525;
+  font-weight: 800;
+  font-variant-ligatures: common-ligatures;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.btn--primary:visited {
+  background: #FA541C;
+  border-color: #FA541C;
+}
+.btn--primary-1:hover {
+  background: #FA541C;
+}
+.btn--primary-1:active {
+  background: #FA541C;
+}
+.menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
+  opacity: .8;
+}
+input[type="submit"] {
+  background: none;
+  outline: none;
+  border: none;
+  background: #FA541C;
+  padding: 0.46428571em 2.78571429em 0.46428571em 2.78571429em;
+  color: #fff;
+}
+.bar.bar--sm {
+  padding: 0.92857143em 0;
+  background-color: #E4E7EB;
+}
+.bar--transparent:not(.bar--dark):not(.pos-fixed) .menu-horizontal > li > a,
+  .bar--transparent:not(.bar--dark):not(.pos-fixed) .menu-horizontal > li > span {
+    color: #fff;
+}
+h4,
+.h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.imagebg:not(.image--light) span {
+  color: #fff;
+  text-shadow: 0px 8px 24px rgba(0,0,0,0.5);
+}
+.bar .logo {
+  max-height: 4em;
+  max-width: none;
+}
+.bar-1 .menu-horizontal > li > a {
+  font-size: 0.8em;
+  line-height: 2.166666666666667em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .0px;
+}
+.bar-1 .menu-horizontal > li > a {
+  font-size: 0.8em;
+  line-height: 2.166666666666667em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .0px;
+}
+.nav-sidebar-column .logo {
+  max-height: 5em;
+  margin-bottom: 0.92857143em;
+}
+button.btn,
+input[type="submit"].btn {
+  font-size: 0.85714286em;
+  font-weight: 700;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.bg--primary button.btn.btn--primary {
+  color: #fd5521;
+  border-color: #fd5521;
+}
+strong {
+    font-weight: 800;
+}
+/**! 10. Menus **/
+.menu-horizontal > li:not(:hover) > a,
+.menu-horizontal > li:not(:hover) > span,
+.menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
+  font-weight: normal;
+  color: #000;
+  opacity: 1;
+}
+.menu-horizontal > li > a,
+.menu-horizontal > li > span,
+.menu-horizontal > li > .modal-instance > .modal-trigger {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  color: #000;
+  opacity: 1;
+  font-weight: normal;
+}
+.menu-horizontal > li > a:hover,
+.menu-horizontal > li > span:hover,
+.menu-horizontal > li > .modal-instance > .modal-trigger:hover {
+  color: #2f5279;
+  opacity: 1;
+  font-weight: normal;
+}
+.bar-1 .menu-horizontal > li > .dropdown__trigger,
+.bar-1 .menu-horizontal > li > a {
+  overflow-wrap: break-word; 
+  font-size: 0.857142857142857em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.bar-1 .menu-horizontal > li > a.is-active {
+  color:#c34120;
+}
+.bar-2 .menu-horizontal > li, .bar-1 .menu-horizontal > li {
+    display: inline-block;
+    max-width: 96px;
+    text-align: center;
+    line-height: 0px;
+    vertical-align: middle;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+    margin-right: 16px;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #FA541C;
+    --bs-btn-border-color: #FA541C;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #FA541C;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #FA541C;
+    --bs-btn-disabled-border-color: #FA541C;
+}
+table tr th, table tr th a, table tr th a:hover, table tr th a:focus {
+    color: #fff;
+    font-weight: bold;
+}
+table tr {
+    background: #fff0;
+}
+.table>thead {
+    vertical-align: bottom;
+    background-color: #d43302;
+}
+table {
+    border: 1px;
+    border-spacing: 1px;
+    font-size: 0.857em;
+    margin: 10px 0;
+    width: 100%;
+    background-color: #fff;
+}
+body {
+    background: #f9f9f9;
+}
+button.btn, input[type="submit"].btn {
+    font-size: 0.85714286em;
+    font-weight: 700;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #d43302;
+}
+section, footer {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+table tr th, table tr td {
+    /* padding: 0.92857143em; */
+    border-bottom: 1px solid #eeeeee;
+    /* border-color: #000; */
+}
