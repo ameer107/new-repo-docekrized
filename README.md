@@ -13,7 +13,7 @@ These steps require you to install the project on your local machine.
 
 1. Clone the project from the git repository:
     ```bash
-    git clone <repo_url>
+    git clone https://github.com/ameer107/new-repo-docekrized.git
     ```
 
 2. Open your terminal and edit the hosts file:
@@ -25,7 +25,7 @@ These steps require you to install the project on your local machine.
         ```
      2. Add the following line:
         ```bash
-        127.0.0.1 <site_name>
+        127.0.0.1 renewal-app-new.local
         ```
      3. Make sure any server running on your system is stopped. For example:
         ```bash
@@ -50,10 +50,10 @@ These steps require you to install the project on your local machine.
 6. After the containers have started successfully, open any browser and access the site at:
 
     ```
-    <site_name>:8085
+    renewal-app-new.local:8085
     ```
 
-    Here, we add the container's PORT next to the site name.
+    Here, we add the container's PORT next to the renewal-app-new.local.
 
 7. Congratulations! The site is now RUNNING.
 
