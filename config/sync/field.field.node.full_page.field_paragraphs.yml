@@ -1,0 +1,102 @@
+uuid: be5f34e0-08d5-4663-8dea-f6b28b9d82c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.full_page
+    - paragraphs.paragraphs_type.from_library
+    - paragraphs.paragraphs_type.paragraph_accordion_block
+    - paragraphs.paragraphs_type.paragraph_content
+    - paragraphs.paragraphs_type.paragraph_content_video
+    - paragraphs.paragraphs_type.paragraph_image_bg_block
+    - paragraphs.paragraphs_type.paragraph_image_block
+    - paragraphs.paragraphs_type.paragraph_section
+    - paragraphs.paragraphs_type.paragraph_sliders_block
+    - paragraphs.paragraphs_type.paragraph_tabs
+    - paragraphs.paragraphs_type.paragraph_video_bg_block
+    - paragraphs.paragraphs_type.paragraph_views_reference
+  module:
+    - entity_reference_revisions
+id: node.full_page.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: full_page
+label: Paragraphs
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paragraph_image_block: paragraph_image_block
+      paragraph_tabs: paragraph_tabs
+      paragraph_views_reference: paragraph_views_reference
+      paragraph_image_bg_block: paragraph_image_bg_block
+      paragraph_sliders_block: paragraph_sliders_block
+      paragraph_accordion_block: paragraph_accordion_block
+      paragraph_content: paragraph_content
+      paragraph_section: paragraph_section
+      paragraph_video_bg_block: paragraph_video_bg_block
+      paragraph_content_video: paragraph_content_video
+      from_library: from_library
+    negate: 0
+    target_bundles_drag_drop:
+      from_library:
+        weight: 36
+        enabled: true
+      paragraph_accordion_block:
+        weight: 17
+        enabled: true
+      paragraph_accordion_item:
+        weight: 18
+        enabled: false
+      paragraph_block:
+        weight: 6
+        enabled: true
+      paragraph_content:
+        weight: 18
+        enabled: true
+      paragraph_content_video:
+        weight: 22
+        enabled: true
+      paragraph_fullwidth_block:
+        weight: 14
+        enabled: true
+      paragraph_image_bg_block:
+        weight: 13
+        enabled: true
+      paragraph_image_block:
+        weight: 7
+        enabled: true
+      paragraph_image_cover_block:
+        weight: 15
+        enabled: true
+      paragraph_section:
+        weight: 19
+        enabled: true
+      paragraph_slider_item:
+        weight: 17
+        enabled: false
+      paragraph_sliders_block:
+        weight: 16
+        enabled: true
+      paragraph_tab_item:
+        weight: 8
+        enabled: false
+      paragraph_tabs:
+        weight: 9
+        enabled: true
+      paragraph_testimonial_block:
+        weight: 20
+        enabled: false
+      paragraph_video_bg_block:
+        weight: 21
+        enabled: true
+      paragraph_views_reference:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

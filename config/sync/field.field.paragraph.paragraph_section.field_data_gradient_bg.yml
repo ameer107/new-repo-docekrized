@@ -1,0 +1,19 @@
+uuid: d2426de8-8607-479f-8643-290e1c83ea09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_data_gradient_bg
+    - paragraphs.paragraphs_type.paragraph_section
+id: paragraph.paragraph_section.field_data_gradient_bg
+field_name: field_data_gradient_bg
+entity_type: paragraph
+bundle: paragraph_section
+label: 'Data gradient bg'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: CqlpQWBwxWgF4d1BcwQ_qKL-2mo2exqFqRHeAzyrSwo
+site_key: f770de38-686c-4e74-b6cc-e82c8ee771a6
+secret_key: '0x3702Bf54a78CAe8285340655F3223b8E01d85065'
+hcaptcha_src: 'https://hcaptcha.com/1/api.js'
+widget:
+  theme: ''
+  size: ''
+  tabindex: 0

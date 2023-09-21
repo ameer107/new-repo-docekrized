@@ -1,0 +1,92 @@
+uuid: cadd96b1-63f1-4931-bf30-8388a2c1c4cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block
+    - field.field.block_content.full_block.body
+    - field.field.block_content.full_block.field_block_background_image
+    - field.field.block_content.full_block.field_block_container
+    - field.field.block_content.full_block.field_block_extra_class
+    - field.field.block_content.full_block.field_block_id
+    - field.field.block_content.full_block.field_content_vertical_center
+    - field.field.block_content.full_block.field_data_overlay
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.full_block.default
+targetEntityType: block_content
+bundle: full_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 8
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_block_background_image:
+    type: image_image
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_block_container:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_block_extra_class:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_block_id:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_content_vertical_center:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_data_overlay:
+    type: options_select
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

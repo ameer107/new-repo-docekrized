@@ -1,0 +1,19 @@
+uuid: 44fc3b27-175c-4d06-8edd-1d868d4e9a49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_label
+    - node.type.job
+id: node.job.field_job_label
+field_name: field_job_label
+entity_type: node
+bundle: job
+label: 'Job Label'
+description: 'Enter a short label for this job, for example, fulltime or remote or closing. Not required. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

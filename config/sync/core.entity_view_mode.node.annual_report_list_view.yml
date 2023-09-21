@@ -1,0 +1,10 @@
+uuid: 3603036f-985d-4b7a-9738-64efa42dec21
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.annual_report_list_view
+label: 'Annual Report List View'
+targetEntityType: node
+cache: true

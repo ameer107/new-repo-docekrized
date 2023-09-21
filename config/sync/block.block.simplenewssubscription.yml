@@ -1,0 +1,26 @@
+uuid: e5bd1666-0c63-4052-8d82-14b5fb7a67d8
+langcode: en
+status: false
+dependencies:
+  module:
+    - simplenews
+  theme:
+    - stack
+id: simplenewssubscription
+theme: stack
+region: user_left
+weight: 0
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Simplenews subscription'
+  label_display: '0'
+  provider: simplenews
+  newsletters: {  }
+  default_newsletters:
+    default: default
+  message: ''
+  show_manage: true
+  unique_id: 51c118f2-9da0-49c9-989e-546854732655
+visibility: {  }

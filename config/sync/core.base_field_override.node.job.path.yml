@@ -1,0 +1,20 @@
+uuid: ec24e59e-72bc-4718-a211-21f97fffad5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.job
+  module:
+    - path
+id: node.job.path
+field_name: path
+entity_type: node
+bundle: job
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

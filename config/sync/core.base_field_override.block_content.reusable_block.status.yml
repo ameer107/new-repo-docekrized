@@ -1,0 +1,22 @@
+uuid: b91bcbd0-12f4-46e7-986a-19689b515dd1
+langcode: zh-hant
+status: true
+dependencies:
+  config:
+    - block_content.type.reusable_block
+id: block_content.reusable_block.status
+field_name: status
+entity_type: block_content
+bundle: reusable_block
+label: 已發表
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 開啟
+  off_label: 關閉
+field_type: boolean

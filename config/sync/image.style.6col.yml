@@ -1,0 +1,15 @@
+uuid: c204cf56-a549-4b54-8974-0ef745ae6591
+langcode: en
+status: true
+dependencies: {  }
+name: 6col
+label: 6col
+effects:
+  80dcd107-bf4f-4dfb-b49f-2ccb10cd2f77:
+    uuid: 80dcd107-bf4f-4dfb-b49f-2ccb10cd2f77
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: false

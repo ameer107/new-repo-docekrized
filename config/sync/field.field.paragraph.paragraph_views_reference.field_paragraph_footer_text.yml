@@ -1,0 +1,26 @@
+uuid: af638bc8-424d-41ae-a29c-e18835131631
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_footer_text
+    - paragraphs.paragraphs_type.paragraph_views_reference
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - full_html
+id: paragraph.paragraph_views_reference.field_paragraph_footer_text
+field_name: field_paragraph_footer_text
+entity_type: paragraph
+bundle: paragraph_views_reference
+label: 'Footer Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

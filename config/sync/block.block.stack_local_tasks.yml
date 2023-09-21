@@ -1,0 +1,22 @@
+uuid: 6da94fea-eb01-4daf-a7b5-4b2631afae16
+langcode: en
+status: true
+dependencies:
+  theme:
+    - stack
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: stack_local_tasks
+theme: stack
+region: content
+weight: -10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

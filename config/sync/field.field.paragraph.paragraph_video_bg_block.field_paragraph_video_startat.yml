@@ -1,0 +1,21 @@
+uuid: 130d15e1-f2d3-4dd9-9e1b-faebb50f1a05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_video_startat
+    - paragraphs.paragraphs_type.paragraph_video_bg_block
+id: paragraph.paragraph_video_bg_block.field_paragraph_video_startat
+field_name: field_paragraph_video_startat
+entity_type: paragraph
+bundle: paragraph_video_bg_block
+label: 'Youtube Video StartAt'
+description: 'Enter the time in second for the video to start'
+required: false
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: string

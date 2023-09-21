@@ -1,0 +1,35 @@
+uuid: 6a98d69e-d7e2-4c97-9ef5-e50667320599
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.full_page.body
+    - field.field.node.full_page.field_mainmenu_transparent
+    - field.field.node.full_page.field_paragraphs
+    - node.type.full_page
+  module:
+    - text
+    - user
+id: node.full_page.teaser
+targetEntityType: node
+bundle: full_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_mainmenu_transparent: true
+  field_paragraphs: true
+  langcode: true

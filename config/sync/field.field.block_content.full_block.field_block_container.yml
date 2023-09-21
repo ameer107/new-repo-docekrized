@@ -1,0 +1,23 @@
+uuid: a87aa2b2-9df2-45f7-aa57-0296b847cfa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block
+    - field.storage.block_content.field_block_container
+id: block_content.full_block.field_block_container
+field_name: field_block_container
+entity_type: block_content
+bundle: full_block
+label: 'Block Container'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

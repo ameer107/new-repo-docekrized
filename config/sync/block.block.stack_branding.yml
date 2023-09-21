@@ -1,0 +1,25 @@
+uuid: 9a633709-856a-4e1e-8517-c4d07c0403ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stack
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: stack_branding
+theme: stack
+region: branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

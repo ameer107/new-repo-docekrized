@@ -1,0 +1,19 @@
+uuid: d67da4bd-eea5-4924-a548-a56b7c9c5300
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_job_responsibilities
+field_name: field_job_responsibilities
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

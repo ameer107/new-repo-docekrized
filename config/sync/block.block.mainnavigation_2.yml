@@ -1,0 +1,25 @@
+uuid: 4f3434b3-2230-42c1-bae3-751d8b574843
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - stack
+id: mainnavigation_2
+theme: stack
+region: navigation
+weight: -15
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

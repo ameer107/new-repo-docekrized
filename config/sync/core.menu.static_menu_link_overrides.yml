@@ -1,0 +1,27 @@
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  standard__front_page:
+    enabled: false
+    menu_name: main
+    parent: ''
+    expanded: true
+    weight: -85
+  'language_switcher_menu__language_switcher_link:en':
+    weight: -67
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'language_switcher_menu__language_switcher_link:zh-hant':
+    weight: -68
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false

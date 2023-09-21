@@ -1,0 +1,15 @@
+uuid: 42f3be93-702f-4d20-be95-185548d677bc
+langcode: en
+status: true
+dependencies: {  }
+name: 12col
+label: 12col
+effects:
+  29e1a9c2-e040-4a1e-8dc1-a62f8da40f00:
+    uuid: 29e1a9c2-e040-4a1e-8dc1-a62f8da40f00
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: null
+      upscale: false

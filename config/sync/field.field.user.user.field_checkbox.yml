@@ -1,0 +1,21 @@
+uuid: b2a2775a-9968-49b4-af09-0c44a6d4be2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_checkbox
+  module:
+    - options
+    - user
+id: user.user.field_checkbox
+field_name: field_checkbox
+entity_type: user
+bundle: user
+label: Checkbox
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

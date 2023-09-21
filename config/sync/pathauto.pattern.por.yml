@@ -1,0 +1,23 @@
+uuid: d388abc8-b74d-41d9-ac5a-cc6f007c1012
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: por
+label: 'Portfolio Category'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'portfolio-category/[term:name]'
+selection_criteria:
+  27db6bb6-6822-4b53-9513-52b4e6528bf9:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 27db6bb6-6822-4b53-9513-52b4e6528bf9
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      portfolio_category: portfolio_category
+selection_logic: and
+weight: -5
+relationships: {  }

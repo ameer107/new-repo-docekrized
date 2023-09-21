@@ -1,0 +1,80 @@
+uuid: 3784ce78-8bbf-4b1b-baec-9b619345c4f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_background_image
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_content
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_data_overlay
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_extra_class
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_id
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_video_startat
+    - field.field.paragraph.paragraph_video_bg_block.field_paragraph_youtube_video_id
+    - paragraphs.paragraphs_type.paragraph_video_bg_block
+  module:
+    - image
+    - options
+    - text
+id: paragraph.paragraph_video_bg_block.default
+targetEntityType: paragraph
+bundle: paragraph_video_bg_block
+mode: default
+content:
+  field_paragraph_background_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_paragraph_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_paragraph_data_overlay:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_paragraph_extra_class:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_paragraph_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_paragraph_video_startat:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_paragraph_youtube_video_id:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

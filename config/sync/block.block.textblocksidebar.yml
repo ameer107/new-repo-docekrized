@@ -1,0 +1,31 @@
+uuid: bc5f9c7a-20e2-469a-af96-7162e55a1a9d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:13473b66-f617-413c-aeff-8c5f08b79d24'
+  module:
+    - block_content
+    - system
+  theme:
+    - stack
+id: textblocksidebar
+theme: stack
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'block_content:13473b66-f617-413c-aeff-8c5f08b79d24'
+settings:
+  id: 'block_content:13473b66-f617-413c-aeff-8c5f08b79d24'
+  label: 'Text Block Sidebar'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /blog-articles-cards-sidebar

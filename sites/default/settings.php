@@ -820,11 +820,14 @@ $databases['default']['default'] = array (
   'username' => 'root',
   'password' => 'admin@123',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'mysql',
   'port' => '3306',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_R7IsDHRHsBQzr0LjYs9OAiGrkc8Ip3zszndDcLWQ8e2R59NNLDxHXkdorLqI9t687U_Voj5-wg/sync';
+$settings['config_sync_directory'] = './config/sync';
 $config['system.logging']['error_level'] = 'verbose';
+
+
+// $settings['config_sync_directory'] = 'sites/default/files/config_R7IsDHRHsBQzr0LjYs9OAiGrkc8Ip3zszndDcLWQ8e2R59NNLDxHXkdorLqI9t687U_Voj5-wg/sync';

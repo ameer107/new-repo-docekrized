@@ -1,0 +1,21 @@
+uuid: 9f32eb16-4033-4c97-8a5b-3faa9b78cfcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block
+    - field.storage.block_content.field_data_overlay
+  module:
+    - options
+id: block_content.full_block.field_data_overlay
+field_name: field_data_overlay
+entity_type: block_content
+bundle: full_block
+label: 'Data overlay'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,30 @@
+uuid: e29b5e78-807e-466a-b411-05a289dd4527
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0414fd1b-cc4b-48d1-ab6b-ecf86706694c'
+  module:
+    - block_content
+    - system
+  theme:
+    - stack
+id: customblockprojectcta
+theme: stack
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:0414fd1b-cc4b-48d1-ab6b-ecf86706694c'
+settings:
+  id: 'block_content:0414fd1b-cc4b-48d1-ab6b-ecf86706694c'
+  label: 'Custom Block - Project CTA'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/project/*'

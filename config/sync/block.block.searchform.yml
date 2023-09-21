@@ -1,0 +1,27 @@
+uuid: 011e7df8-2920-4233-a4ee-5f9b0fd43684
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - stack
+id: searchform
+theme: stack
+region: sidebar_second
+weight: -13
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search site'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /blog-articles-cards-sidebar

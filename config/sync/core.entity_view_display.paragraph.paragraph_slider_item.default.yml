@@ -1,0 +1,64 @@
+uuid: 091d9288-b7db-4b8b-82d3-fc39c9f4fd8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_slider_item.field_content_vertical_center
+    - field.field.paragraph.paragraph_slider_item.field_paragraph_content
+    - field.field.paragraph.paragraph_slider_item.field_paragraph_data_overlay
+    - field.field.paragraph.paragraph_slider_item.field_paragraph_image
+    - field.field.paragraph.paragraph_slider_item.field_paragraph_item_classes
+    - paragraphs.paragraphs_type.paragraph_slider_item
+  module:
+    - image
+    - options
+    - text
+id: paragraph.paragraph_slider_item.default
+targetEntityType: paragraph
+bundle: paragraph_slider_item
+mode: default
+content:
+  field_content_vertical_center:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_paragraph_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_paragraph_data_overlay:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_paragraph_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_paragraph_item_classes:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

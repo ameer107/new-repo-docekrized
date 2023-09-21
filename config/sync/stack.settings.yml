@@ -1,0 +1,137 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://single-logo.ico'
+  url: 'http://localhost/drupal8/stack/themes/stack/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logo-black_2.png'
+  url: ''
+  use_default: false
+bootstrap_barrio_source: '0'
+bootstrap_barrio_fluid_container: 0
+bootstrap_barrio_container: container
+bootstrap_barrio_region_clean_page_top: 0
+bootstrap_barrio_region_class_page_top: ''
+bootstrap_barrio_region_clean_page_bottom: 0
+bootstrap_barrio_region_class_page_bottom: ''
+bootstrap_barrio_region_clean_highlighted: 1
+bootstrap_barrio_region_class_highlighted: ''
+bootstrap_barrio_region_clean_content: 1
+bootstrap_barrio_region_class_content: ''
+bootstrap_barrio_region_clean_sidebar_first: 1
+bootstrap_barrio_region_class_sidebar_first: ''
+bootstrap_barrio_region_clean_sidebar_second: 1
+bootstrap_barrio_region_class_sidebar_second: ''
+bootstrap_barrio_sidebar_position: right
+bootstrap_barrio_content_offset: 0
+bootstrap_barrio_sidebar_collapse: 0
+bootstrap_barrio_sidebar_first_width: 2
+bootstrap_barrio_sidebar_first_offset: 0
+bootstrap_barrio_sidebar_second_width: 2
+bootstrap_barrio_sidebar_second_offset: 0
+bootstrap_barrio_hide_node_label: 0
+bootstrap_barrio_breadcrumb_divider: ''
+bootstrap_barrio_button: 0
+bootstrap_barrio_button_size: ''
+bootstrap_barrio_button_type: primary
+bootstrap_barrio_button_outline: 0
+bootstrap_barrio_navbar_container: '0'
+bootstrap_barrio_navbar_toggle: navbar-toggleable-xl
+bootstrap_barrio_navbar_top_navbar: 0
+bootstrap_barrio_navbar_top_class: ''
+bootstrap_barrio_navbar_class: ''
+bootstrap_barrio_navbar_top_position: ''
+bootstrap_barrio_navbar_top_color: ''
+bootstrap_barrio_navbar_top_background: ''
+bootstrap_barrio_navbar_position: ''
+bootstrap_barrio_navbar_color: ''
+bootstrap_barrio_navbar_background: ''
+bootstrap_barrio_navbar_flyout: false
+bootstrap_barrio_navbar_slide: false
+bootstrap_barrio_navbar_offcanvas: offcanvas-collapse
+bootstrap_barrio_messages_widget: default
+bootstrap_barrio_float_label: '0'
+bootstrap_barrio_checkbox: ''
+bootstrap_barrio_navbar_top_affix: 0
+bootstrap_barrio_navbar_affix: 0
+bootstrap_barrio_sidebar_first_affix: 0
+bootstrap_barrio_sidebar_second_affix: 0
+bootstrap_barrio_scroll_spy: ''
+bootstrap_barrio_google_fonts: roboto
+bootstrap_barrio_bootstrap_icons: 0
+bootstrap_barrio_icons: ''
+bootstrap_barrio_system_messages: ''
+bootstrap_barrio_table_style: ''
+bootstrap_barrio_table_hover: 0
+bootstrap_barrio_table_head: ''
+bootstrap_barrio_image_fluid: false
+bootstrap_barrio_tabs_style: ''
+schemas:
+  bootstrap: 8000
+  stack: 8000
+region_wells:
+  user_left: ''
+  user_right: ''
+  branding: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header_first: ''
+  header_second: ''
+  title: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  postscript_first: ''
+  postscript_second: ''
+  postscript_third: ''
+  postscript_fouth: ''
+  footer: ''
+table_responsive: '-1'
+table: ''
+theme_menu: menuwhite
+menu_transparant: ''
+theme_color: default
+menu_sticky: 1
+menu_hover: menu_click
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+apply: Apply
+bootstrap_barrio_region_clean_user_left: 0
+bootstrap_barrio_region_class_user_left: ''
+bootstrap_barrio_region_clean_user_right: 0
+bootstrap_barrio_region_class_user_right: ''
+bootstrap_barrio_region_clean_branding: 0
+bootstrap_barrio_region_class_branding: ''
+bootstrap_barrio_region_clean_navigation: 0
+bootstrap_barrio_region_class_navigation: ''
+bootstrap_barrio_region_clean_navigation_collapsible: 0
+bootstrap_barrio_region_class_navigation_collapsible: ''
+bootstrap_barrio_region_clean_header_first: 0
+bootstrap_barrio_region_class_header_first: ''
+bootstrap_barrio_region_clean_header_second: 0
+bootstrap_barrio_region_class_header_second: ''
+bootstrap_barrio_region_clean_title: 0
+bootstrap_barrio_region_class_title: ''
+bootstrap_barrio_region_clean_help: 0
+bootstrap_barrio_region_class_help: ''
+bootstrap_barrio_region_clean_postscript_first: 0
+bootstrap_barrio_region_class_postscript_first: ''
+bootstrap_barrio_region_clean_postscript_second: 0
+bootstrap_barrio_region_class_postscript_second: ''
+bootstrap_barrio_region_clean_postscript_third: 0
+bootstrap_barrio_region_class_postscript_third: ''
+bootstrap_barrio_region_clean_postscript_fouth: 0
+bootstrap_barrio_region_class_postscript_fouth: ''
+bootstrap_barrio_region_clean_footer: 0
+bootstrap_barrio_region_class_footer: ''

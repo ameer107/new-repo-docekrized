@@ -1,0 +1,20 @@
+uuid: 911564ae-4621-4464-8d6c-1a647c776a01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_chinese_name
+  module:
+    - user
+id: user.user.field_chinese_name
+field_name: field_chinese_name
+entity_type: user
+bundle: user
+label: 中文姓名
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

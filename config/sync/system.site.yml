@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+langcode: en
+uuid: e5552d20-3fbf-419b-964f-8bcd200698b3
+name: 'Surveyors Registration Board'
+mail: me@localhost.com
+slogan: ''
+page:
+  403: /node/73
+  404: /node/73
+  front: /node/117
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

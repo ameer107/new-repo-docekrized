@@ -1,0 +1,21 @@
+uuid: 7e19109a-c526-45f5-8d5d-cf73a5e112e4
+langcode: en
+status: false
+dependencies:
+  module:
+    - contact
+  theme:
+    - stack
+id: sitewidecontactform
+theme: stack
+region: user_left
+weight: -4
+provider: null
+plugin: formblock_contact
+settings:
+  id: formblock_contact
+  label: 'Site-wide contact form'
+  label_display: '0'
+  provider: contact
+  contact_form: feedback
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: 079f42cb-5c03-44d7-a781-51547533b442
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_content
+    - paragraphs.paragraphs_type.paragraph_accordion_item
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - full_html
+id: paragraph.paragraph_accordion_item.field_paragraph_content
+field_name: field_paragraph_content
+entity_type: paragraph
+bundle: paragraph_accordion_item
+label: 'Item Content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

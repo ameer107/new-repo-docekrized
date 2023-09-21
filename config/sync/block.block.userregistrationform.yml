@@ -1,0 +1,21 @@
+uuid: cdcd1b13-a19e-419b-9acd-63b1877d5cfe
+langcode: en
+status: false
+dependencies:
+  module:
+    - formblock
+  theme:
+    - stack
+id: userregistrationform
+theme: stack
+region: user_left
+weight: -1
+provider: null
+plugin: formblock_user_register
+settings:
+  id: formblock_user_register
+  label: 'User registration form'
+  label_display: '0'
+  provider: user
+  form_mode: register
+visibility: {  }

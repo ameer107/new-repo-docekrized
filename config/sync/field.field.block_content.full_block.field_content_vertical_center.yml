@@ -1,0 +1,23 @@
+uuid: d45077cd-100f-45ed-87a4-80fff70b689c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block
+    - field.storage.block_content.field_content_vertical_center
+id: block_content.full_block.field_content_vertical_center
+field_name: field_content_vertical_center
+entity_type: block_content
+bundle: full_block
+label: 'Content Vertical Center'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

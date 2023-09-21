@@ -1,0 +1,72 @@
+blockgallery-stacked:
+  name: blockgallery-stacked
+  version: 0.0.5
+  label: 'Block Gallery: Stacked'
+  description: 'A beautiful stacked image gallery block by Block Gallery. Block Gallery is a radically stunning suite of gallery blocks built exclusively for the new WordPress Gutenberg block editor.'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/g-feature-box':
+  name: '@frontkom/g-feature-box'
+  version: 0.1.0
+  label: 'Feature Box'
+  description: 'A composition block for Gutenberg Cloud'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: build/editor.css
+  view_css: build/style.css
+'@frontkom/starterx-mosaic':
+  name: '@frontkom/starterx-mosaic'
+  version: 1.0.1
+  label: 'StarterX Mosaic'
+  description: 'Mosaic block with articles'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/starterx-quote-background':
+  name: '@frontkom/starterx-quote-background'
+  version: 2.0.0
+  label: 'StarterX Quote with background'
+  description: 'Quote block with a background image'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/g-content-in-columns':
+  name: '@frontkom/g-content-in-columns'
+  version: 0.4.5
+  label: 'Content in columns'
+  description: 'A custom block for Gutenberg Cloud'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/g-hero-section':
+  name: '@frontkom/g-hero-section'
+  version: 0.7.5
+  label: 'Hero section'
+  description: 'A custom block for Gutenberg Cloud'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/section-row':
+  name: '@frontkom/section-row'
+  version: 0.2.0
+  label: 'Section Row'
+  description: 'A collection of blocks that compose together to create flexible sections.'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: build/editor.css
+  view_css: build/style.css
+'@frontkom/g-section':
+  name: '@frontkom/g-section'
+  version: 0.4.3
+  label: 'Section wrapper'
+  description: 'A customizable wrapper for your blocks'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css

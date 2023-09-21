@@ -1,0 +1,18 @@
+uuid: 4a37495f-d0f6-40ab-8d1b-bc8529a78e5f
+langcode: zh-hant
+status: true
+dependencies:
+  config:
+    - block_content.type.reusable_block
+id: block_content.reusable_block.info
+field_name: info
+entity_type: block_content
+bundle: reusable_block
+label: 區塊說明
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: a3755fa6-975a-4e54-8065-fdf39ccd59a0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - stack
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: stack_local_actions
+theme: stack
+region: content
+weight: -11
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

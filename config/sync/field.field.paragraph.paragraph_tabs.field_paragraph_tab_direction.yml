@@ -1,0 +1,23 @@
+uuid: 2a9a708b-8104-41c4-a23f-2016a32271a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_tab_direction
+    - paragraphs.paragraphs_type.paragraph_tabs
+  module:
+    - options
+id: paragraph.paragraph_tabs.field_paragraph_tab_direction
+field_name: field_paragraph_tab_direction
+entity_type: paragraph
+bundle: paragraph_tabs
+label: 'Tab Direction'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: Horizontal
+default_value_callback: ''
+settings: {  }
+field_type: list_string

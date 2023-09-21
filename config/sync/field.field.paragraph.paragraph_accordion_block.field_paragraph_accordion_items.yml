@@ -1,0 +1,76 @@
+uuid: 6a9ae8f8-8916-4a9e-81e8-f5202d7dce98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_accordion_items
+    - paragraphs.paragraphs_type.paragraph_accordion_block
+    - paragraphs.paragraphs_type.paragraph_accordion_item
+  module:
+    - entity_reference_revisions
+id: paragraph.paragraph_accordion_block.field_paragraph_accordion_items
+field_name: field_paragraph_accordion_items
+entity_type: paragraph
+bundle: paragraph_accordion_block
+label: 'Accordion Items'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paragraph_accordion_item: paragraph_accordion_item
+    negate: 0
+    target_bundles_drag_drop:
+      paragraph_accordion_block:
+        weight: 16
+        enabled: false
+      paragraph_accordion_item:
+        weight: 18
+        enabled: true
+      paragraph_block:
+        weight: 17
+        enabled: false
+      paragraph_content:
+        weight: 18
+        enabled: false
+      paragraph_fullwidth_block:
+        weight: 19
+        enabled: false
+      paragraph_image_bg_block:
+        weight: 20
+        enabled: false
+      paragraph_image_block:
+        weight: 21
+        enabled: false
+      paragraph_image_cover_block:
+        weight: 22
+        enabled: false
+      paragraph_section:
+        weight: 23
+        enabled: false
+      paragraph_slider_item:
+        weight: 25
+        enabled: false
+      paragraph_sliders_block:
+        weight: 24
+        enabled: false
+      paragraph_tab_item:
+        weight: 27
+        enabled: false
+      paragraph_tabs:
+        weight: 26
+        enabled: false
+      paragraph_testimonial_block:
+        weight: 28
+        enabled: false
+      paragraph_video_bg_block:
+        weight: 29
+        enabled: false
+      paragraph_views_reference:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

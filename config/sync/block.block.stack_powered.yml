@@ -1,0 +1,22 @@
+uuid: 37cdcab7-2831-46d8-b9ae-c1d03115902d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - stack
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: stack_powered
+theme: stack
+region: user_left
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

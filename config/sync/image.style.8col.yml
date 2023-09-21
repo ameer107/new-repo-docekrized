@@ -1,0 +1,15 @@
+uuid: 3b2f52ba-bc79-4bb4-a57c-a110cd20877e
+langcode: en
+status: true
+dependencies: {  }
+name: 8col
+label: 8col
+effects:
+  9702f146-c599-4db4-b286-09fd94f0bf90:
+    uuid: 9702f146-c599-4db4-b286-09fd94f0bf90
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: null
+      upscale: true

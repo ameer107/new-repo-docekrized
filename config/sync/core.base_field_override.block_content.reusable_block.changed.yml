@@ -1,0 +1,18 @@
+uuid: cce317de-db84-4022-9991-60f447a65161
+langcode: zh-hant
+status: true
+dependencies:
+  config:
+    - block_content.type.reusable_block
+id: block_content.reusable_block.changed
+field_name: changed
+entity_type: block_content
+bundle: reusable_block
+label: 已變更
+description: 自訂區塊最後編輯時間。
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

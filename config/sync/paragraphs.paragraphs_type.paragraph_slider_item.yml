@@ -1,0 +1,7 @@
+uuid: b9c67c14-a5c3-4b76-b10b-4d2d3366bb63
+langcode: en
+status: true
+dependencies: {  }
+id: paragraph_slider_item
+label: 'Slider Item'
+behavior_plugins: {  }

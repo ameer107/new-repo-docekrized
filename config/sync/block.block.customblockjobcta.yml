@@ -1,0 +1,30 @@
+uuid: afe327dd-8885-4ead-a131-2d9215017bd8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:87974b5f-769f-4c5f-8f90-9b4d7ddce382'
+  module:
+    - block_content
+    - system
+  theme:
+    - stack
+id: customblockjobcta
+theme: stack
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:87974b5f-769f-4c5f-8f90-9b4d7ddce382'
+settings:
+  id: 'block_content:87974b5f-769f-4c5f-8f90-9b4d7ddce382'
+  label: 'Custom Block - Job CTA'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/job/*'

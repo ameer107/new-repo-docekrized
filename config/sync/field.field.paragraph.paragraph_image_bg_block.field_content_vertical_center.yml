@@ -1,0 +1,23 @@
+uuid: 1477f048-01c4-4a53-a268-6a81b097a1f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content_vertical_center
+    - paragraphs.paragraphs_type.paragraph_image_bg_block
+id: paragraph.paragraph_image_bg_block.field_content_vertical_center
+field_name: field_content_vertical_center
+entity_type: paragraph
+bundle: paragraph_image_bg_block
+label: 'Content Vertical Center'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

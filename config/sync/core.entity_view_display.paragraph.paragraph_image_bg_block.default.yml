@@ -1,0 +1,82 @@
+uuid: 420f4268-0398-4fda-acb1-9774e52b463c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_image_bg_block.field_content_vertical_center
+    - field.field.paragraph.paragraph_image_bg_block.field_data_gradient_bg
+    - field.field.paragraph.paragraph_image_bg_block.field_paragraph_background_image
+    - field.field.paragraph.paragraph_image_bg_block.field_paragraph_content
+    - field.field.paragraph.paragraph_image_bg_block.field_paragraph_data_overlay
+    - field.field.paragraph.paragraph_image_bg_block.field_paragraph_extra_class
+    - field.field.paragraph.paragraph_image_bg_block.field_paragraph_id
+    - paragraphs.paragraphs_type.paragraph_image_bg_block
+  module:
+    - image
+    - options
+    - text
+id: paragraph.paragraph_image_bg_block.default
+targetEntityType: paragraph
+bundle: paragraph_image_bg_block
+mode: default
+content:
+  field_content_vertical_center:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_data_gradient_bg:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_paragraph_background_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_paragraph_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_paragraph_data_overlay:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_paragraph_extra_class:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_paragraph_id:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }

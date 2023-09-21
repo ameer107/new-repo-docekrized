@@ -1,0 +1,21 @@
+uuid: aac9e330-1de7-4df0-8383-0641499b01be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_data_overlay
+    - paragraphs.paragraphs_type.paragraph_slider_item
+  module:
+    - options
+id: paragraph.paragraph_slider_item.field_paragraph_data_overlay
+field_name: field_paragraph_data_overlay
+entity_type: paragraph
+bundle: paragraph_slider_item
+label: 'Data Overlay'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

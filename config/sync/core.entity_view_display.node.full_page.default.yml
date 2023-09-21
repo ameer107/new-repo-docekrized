@@ -1,0 +1,51 @@
+uuid: 45c39bc9-930b-4326-ac2a-a9cee4517617
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.full_page.body
+    - field.field.node.full_page.field_mainmenu_transparent
+    - field.field.node.full_page.field_paragraphs
+    - node.type.full_page
+  module:
+    - layout_paragraphs
+    - text
+    - user
+id: node.full_page.default
+targetEntityType: node
+bundle: full_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_mainmenu_transparent:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_paragraphs:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

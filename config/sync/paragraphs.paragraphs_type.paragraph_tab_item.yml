@@ -1,0 +1,7 @@
+uuid: 4541f048-d956-44f9-9532-ad5514f6f982
+langcode: en
+status: true
+dependencies: {  }
+id: paragraph_tab_item
+label: 'Tab Item'
+behavior_plugins: {  }

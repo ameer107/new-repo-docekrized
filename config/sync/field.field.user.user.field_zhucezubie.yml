@@ -1,0 +1,20 @@
+uuid: 4722981f-daaf-4ca9-ab93-6305854bb471
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_zhucezubie
+  module:
+    - user
+id: user.user.field_zhucezubie
+field_name: field_zhucezubie
+entity_type: user
+bundle: user
+label: 註冊組別
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

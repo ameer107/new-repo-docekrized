@@ -1,0 +1,22 @@
+uuid: dc593ea4-6095-478a-b4cd-ab804b9a7ac3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - stack
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: stack_help
+theme: stack
+region: content
+weight: -13
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

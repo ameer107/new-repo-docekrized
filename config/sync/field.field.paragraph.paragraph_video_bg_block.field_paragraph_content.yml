@@ -1,0 +1,26 @@
+uuid: ba87ecdd-cd03-4c00-af48-22e7949cfc29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_content
+    - paragraphs.paragraphs_type.paragraph_video_bg_block
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - full_html
+id: paragraph.paragraph_video_bg_block.field_paragraph_content
+field_name: field_paragraph_content
+entity_type: paragraph
+bundle: paragraph_video_bg_block
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 9f95712e-a327-48e0-96be-950bdddf22af
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stack
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: stack_content
+theme: stack
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

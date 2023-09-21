@@ -1,0 +1,15 @@
+uuid: 015f3b09-1220-404d-a658-e61e3727d6df
+langcode: en
+status: true
+dependencies: {  }
+name: 4col
+label: 4col
+effects:
+  79e392c9-b396-46e5-ae2a-87c2a1833a45:
+    uuid: 79e392c9-b396-46e5-ae2a-87c2a1833a45
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: false

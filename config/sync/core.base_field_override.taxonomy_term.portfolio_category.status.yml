@@ -1,0 +1,22 @@
+uuid: c87feade-c5ac-45e3-a9e5-c52f7db9e47c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.portfolio_category
+id: taxonomy_term.portfolio_category.status
+field_name: status
+entity_type: taxonomy_term
+bundle: portfolio_category
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

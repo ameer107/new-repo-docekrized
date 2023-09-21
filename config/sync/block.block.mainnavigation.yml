@@ -1,0 +1,30 @@
+uuid: ee6220a8-8e69-4e9e-b21d-ca027d1f6add
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - stack
+id: mainnavigation
+theme: stack
+region: navigation_collapsible
+weight: -13
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/home-coming-soon-1\r\n/home-coming-soon-2\r\n/home-coming-soon-3\r\n/home-landing-3\r\n/home-wedding"

@@ -21,6 +21,9 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
     php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
     php -r "unlink('composer-setup.php');"
 
+# Run Composer Install
+RUN composer install
+
 # Install Drush
 RUN composer global require drush/drush && \
     ln -s /var/www/html/vendor/bin/drush /usr/local/bin/drush

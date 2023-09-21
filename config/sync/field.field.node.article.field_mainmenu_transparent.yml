@@ -1,0 +1,23 @@
+uuid: fee65461-6dc0-41a7-a8ad-13ad601efad9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mainmenu_transparent
+    - node.type.article
+id: node.article.field_mainmenu_transparent
+field_name: field_mainmenu_transparent
+entity_type: node
+bundle: article
+label: 'Mainmenu transparent'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

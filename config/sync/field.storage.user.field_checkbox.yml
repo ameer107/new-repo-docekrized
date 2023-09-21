@@ -1,0 +1,30 @@
+uuid: 0f15c788-4c9c-4103-8f32-4584c4be88ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_checkbox
+field_name: field_checkbox
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: Value1
+    -
+      value: '2'
+      label: Value2
+    -
+      value: '3'
+      label: Value3
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

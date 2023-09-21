@@ -1,0 +1,45 @@
+uuid: 84e9e203-479c-47d9-8abe-bb40e7afb314
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_views_reference.field_paragraph_container
+    - field.field.paragraph.paragraph_views_reference.field_paragraph_extra_class
+    - field.field.paragraph.paragraph_views_reference.field_paragraph_footer_text
+    - field.field.paragraph.paragraph_views_reference.field_paragraph_header_text
+    - field.field.paragraph.paragraph_views_reference.field_paragraph_id
+    - field.field.paragraph.paragraph_views_reference.field_paragraph_views_reference
+    - paragraphs.paragraphs_type.paragraph_views_reference
+  module:
+    - viewsreference
+id: paragraph.paragraph_views_reference.default
+targetEntityType: paragraph
+bundle: paragraph_views_reference
+mode: default
+content:
+  field_paragraph_extra_class:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_paragraph_views_reference:
+    type: viewsreference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_paragraph_container: true
+  field_paragraph_footer_text: true
+  field_paragraph_header_text: true
+  field_paragraph_id: true
+  status: true
+  uid: true
