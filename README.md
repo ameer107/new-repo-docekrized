@@ -120,4 +120,4 @@ Follow these steps when starting a new task.
       ```
 
 ## Author
-Copyrights &copy; [adminusername](https://www.example.com/). All rights reserved.
+Copyrights &copy; [ameer107](https://www.example.com/). All rights reserved.

@@ -21,8 +21,11 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
     php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
     php -r "unlink('composer-setup.php');"
 
+# Copy your existing Drupal application files to the container
+COPY . /var/www/html/
+
 # Run Composer Install
-RUN composer install
+# RUN composer install
 
 # Install Drush
 RUN composer global require drush/drush && \
@@ -38,11 +41,8 @@ COPY custom-apache.conf /etc/apache2/conf-available/
 RUN a2enconf custom-apache
 
 
-# Copy your existing Drupal application files to the container
-COPY . /var/www/html/
-
 # Expose port 80 for Apache
 EXPOSE 80
 
 # Start Apache server
-CMD ["apache2-foreground"]
+CMD ["sh", "-c", "composer install && apache2-foreground"]
