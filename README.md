@@ -5,13 +5,17 @@
             `https://docs.docker.com/engine/install/`
 # Installation Setup
 This steps requires to install project on your local machine.
+
     * Clone project from git repository `git clone <repo_url>`.
+
     * Open terminam and open hosts file:
         Ubuntu: 
             1. sudo nano /var/etc/hosts.
             2. Add this->   `127.0.0.1 <site_name>`.
-            3. Make sure any server running in your sytem should be stop e.g: `sudo systemctl stop apache2`
+            3. Make sure any server running in your sytem should be stop e.g: `sudo systemctl stop apache2`.
+
     * Open project in your Terminal (Go to that directory where docker-compose.ymal file exists).
+
     * Now run `docker ps` this command will show running containers if any other containers are running , STOP them `docker stop <container_id>`.
     * Run this command `docker-compose up -d`.
     * After Started containers successfully Open any browser And access site with this:
